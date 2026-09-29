@@ -5,7 +5,7 @@ defmodule Practica01.MixProject do
     [
       app: :practica_01,
       version: "0.1.0",
-      elixir: "~> 1.20",
+      elixir: "~> 1.14",
       start_permanent: Mix.env() == :prod,
       deps: deps()
     ]
