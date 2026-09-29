@@ -17,6 +17,18 @@ mix compile
 iex -S mix
 ```
 
+Dentro de `iex`:
+
+```elixir
+# Primos menores o iguales a 40 con 4 trabajadores
+PrimesFinder.range(40, 4)
+
+# Experimentos con 1, 2, 4, 8 y 16 trabajadores
+PrimesFinder.experimentos()
+```
+
+Los resultados se guardan en `primes.txt` y `times.txt`.
+
 ## Archivos
 
 | Archivo                | Contenido                                     | Sección               |
