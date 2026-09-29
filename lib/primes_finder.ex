@@ -31,7 +31,7 @@ defmodule PrimesFinder do
         trabajadores \\ @trabajadores,
         repeticiones \\ @repeticiones
       ) do
-    # Ejecución de calentamiento: la primera ejecución de la VM es más lenta, por eso no se cuenta
+    # Ejecución inicial para llenar la cache de la VM y evitar que la primera medición sea más lenta
     mide(1_000, 1)
 
     # Para cada N calculamos el tiempo promedio con cada número de trabajadores
